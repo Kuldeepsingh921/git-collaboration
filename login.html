@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaboration</title>
+    <style>
+       body{ 
+        background-image: linear-gradient(to right, #507ecd ,#8151b4);
+        
+       }
+       .container{
+        border:solid white 1px;
+        width:30%;
+        height:auto;
+        margin:auto;
+        margin-top:50px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        text-align:center;
+       }
+       .container>h1{
+        text-align: center;
+        margin:70px;
+        font-size: 50px;
+       }
+       .form{        
+        margin:auto;
+        width:80%;
+       }
+       .form>input{
+        border:0;       
+        width:95%;
+        padding:10px;
+        border-bottom: 3px solid #adadad;
+        
+       }
+       
+       .form>button{
+        width:100%;
+        padding:15px;
+        background-image: linear-gradient(to right, #418bd4 ,#8151b4);
+        border:0px;
+        color:white;
+       }
+       .form+p{
+        margin-top: 100px;
+       }
+       .form+p+p{
+        margin-bottom:100px;
+       }
+       @media all and (min-width:320px) and (max-width:767px){
+        .container>h1{
+            text-align:center;
+            font-size:30px;
+        }
+       }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <h1>Login</h1>
+       <div class="form">
+       <input type="email" placeholder="Email">
+       <br>
+       <br>
+       <br>
+       <input type="password" placeholder="Password">
+       <br>
+       <br>
+       <br>
+       <button>Login</button>
+       </div>
+       <p>Forgot <span style="color:#a9bfce">Password</span> ?</p>
+       <p>Don't have an account? <span style="color:#a9bfce">Sign up</span></p>
+   </div>
+</body>
+</html>
